@@ -1,0 +1,450 @@
+/********** Header Section *******/
+/*********************************/
+
+header {
+  position: relative;
+  width: 100%;
+  /*viewport height*/
+  min-height: 100vh;
+
+  /****************************************
+          Background einstellungen
+      background: url("../Img/hintergrund.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; 
+    ******************************************/
+
+  /*Hintergrundbild in css einbinden  */
+  min-height: 100vh;
+  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)),
+    url("../Img/hintergrund.jpeg") no-repeat center center/cover;
+
+  @include bp-medium {
+    min-height: 70vh;
+  }
+
+  // alle Seiten ausser Index
+  body:not(.index) & {
+    min-height: 40vh;
+    background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)),
+      url("../Img/team2.jpeg") no-repeat center center/cover;
+
+    @include bp-medium {
+      min-height: 50vh;
+    }
+
+    .claim {
+      display: none;
+    }
+  }
+
+  // Siehe bitte _grid.scss um die mixins zu sehen und auch das prinzip zu verstehen
+  // Vordefinierte Syles die mit include eingebunden weden können
+
+  /* Hier bitte mit scss die navigation neu stylen und später die alten stzles entfernen */
+
+
+  //in breakpoint medium einfügen und neues design für Mobile first
+  .topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: rgb(30, 144, 255);
+    padding: 1rem;
+
+    .logo {
+      min-width: 50px;
+      max-width: 15%;
+      width: 100%;
+      height: auto;
+
+      a {
+        font-size: 2.5rem;
+        color: white;
+        font-family: 'Damion', Courier, monospace;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    nav {
+      @include bp-medium {
+        ul {
+          list-style-type: none;
+          background-color: #0e4bff;
+          margin-left: 25px;
+          border-radius: 10px;
+  
+          li {
+              display: inline-block;
+            
+  
+            a {
+              display: block;
+              padding: 20px;
+              color: #dee8ed;
+              text-decoration: none;
+            }
+  
+            a:hover {
+              background: #1a1a1a;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
+  /* Denk bitte dran das die navigation verlinkungen haben sollte und auch intern auf verschiedene elemente verlinkt sind */
+
+  /* ********************************************************************************** */
+
+  .claim {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+    /*transform elemnte mittig plazieren*/
+    transform: translate(-50%, -50%);
+
+    animation-name: slideIn;
+    animation-duration: 4s;
+    animation-delay: 5s;
+
+    .row {
+      justify-content: center;
+
+      .box {
+        border-radius: 5px;
+        background: rgba(255, 255, 250, 0.6);
+
+        h1 {
+          animation-name: scale;
+          animation-duration: 2s;
+          animation-delay: 5s;
+          /*??? --> du hattest glaube ich ne frage hier, das transform origin sagt wo die animation ihren start punkt hat*/
+          transform-origin: bottom left;
+        }
+      }
+    }
+  }
+}
+
+/********* Main Section ***********+/
+/**********************************/
+main {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  section.leistungen {
+    h1 {
+      text-align: center;
+    }
+ 
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      padding: 0.5rem;
+      background: #f7f7f7;
+      border-radius: 5px;
+      align-items: flex-start;
+
+      img {
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+  }
+
+  background: #dee8ed;
+
+  .googleMaps {
+    width: 100%;
+
+    @include bp-medium {
+      width: 60%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+  }
+}
+
+
+
+
+
+section.blogposts {
+  /* HIER BITTE DIE 2 SECTION STYLEN  */
+  width: 100%;
+  border-radius: 5px;
+
+  article {
+    background: #f7f7f7;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+      //???
+      object-position: center;
+    }
+  }
+
+  aside {
+    background: #f7f7f7;
+    padding: 1rem 1.5rem;
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+
+
+/********* footer Section ***********+/
+  /**********************************/
+
+/* FOOTER AUCH STZLEN UND EINER FOOTER NAVIGATION GEBEN  */
+footer {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+  background-color: #1e90ff;
+
+  .contentfooter {
+    width: 100%;
+
+    @include bp-medium {
+      max-width: 80%;
+    }
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    .logo {
+      width: 100%;
+
+      @include bp-medium {
+        width: 40%;
+      }
+
+      text-align: center;
+
+      .brand {
+        img {
+          width: auto;
+          height: 70px;
+        }
+
+        h3 {
+          color: $light;
+        }
+      }
+
+      .footernav {
+        margin-top: 3rem;
+
+        li {
+          display: inline-block;
+          list-style: none;
+          padding: 0.5rem 1rem;
+
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: $light;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              color: rgba(255, 156, 75, 0.618);
+            }
+          }
+        }
+      }
+    }
+
+    .googleMaps {
+      width: 100%;
+
+      @include bp-medium {
+        width: 60%;
+      }
+
+      iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+      }
+    }
+  }
+}
+
+
+
+/* ****************** Animationen ********************************/
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*claim wird seitlich eingeschoben*/
+@keyframes slideIn {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+
+  100% {
+    left: 50%;
+    opacity: 1;
+  }
+}
+
+// Mobile Navigation
+
+.mobileNav {
+  //höhe ist null 
+  max-height: 0;
+  display: none;
+  //verzögert effekt zwischen block
+  // ease-out 
+  transition: all .5 ease-out;
+  transition-property: max-height, display;
+
+}
+.hamb {
+  //styling von maus
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 4%;
+  padding: 40px 20px;
+
+.hamb-line {
+  background-color: $light;
+  display: block;
+  width: 24px;
+  height: 2px;
+  position: relative;
+  z-index: 999;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: $light;
+    width: 100%;
+    height: 100%;
+    transition: all .2 ease-out;
+  }
+  &::before {
+    top: 5px;
+  }
+  &::after {
+    top: -5px;
+  }
+}
+}
+
+.side-menu {
+  display: none;
+  //vor  nach dem klicken
+&:checked ~ {
+  nav{
+    max-height: 100%;
+    display: block;
+
+    ul {
+      position: absolute;
+      top: 10%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .8);
+      z-index: 10;
+      //flexbox
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+      li {
+        display: block;
+        list-style: none;
+
+        a{
+          color: $light;
+        }
+
+      }
+    }
+  }
+  .hamb {
+    // hamburgerlinien
+    .hamb-line{
+      background: transparent;
+
+      &::before {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+      &::after {
+        transform: rotate(405deg);
+        top: 0;
+
+      }
+    }
+  }
+}
+}
+@include bp-medium {
+  .side-menu, .hamb {
+    display: none;
+  }
+  .mobileNav {
+    max-height: 100%;
+    display: block;
+  }
+}

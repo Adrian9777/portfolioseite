@@ -1,0 +1,109 @@
+
+$bp: (
+  "small": "540px",
+  "medium": "768px",
+  "large": "992px",
+  "giant": "1200px"
+);
+$small: map-get($bp, "small");
+$medium: map-get($bp, "medium");
+$large: map-get($bp, "large");
+$giant: map-get($bp, "giant");
+
+/* Mixins for breakpoints */
+@mixin bp-small {
+  @media (min-width: #{$small}) { 
+      @content;  
+  }
+}
+
+@mixin bp-medium {
+  @media (min-width: #{$medium}) { 
+      @content;  
+  }
+}
+
+@mixin bp-large {
+  @media (min-width: #{$large}) { 
+      @content;  
+  }
+}
+
+@mixin bp-giant {
+  @media (min-width: #{$giant}) { 
+      @content;  
+  } 
+}
+
+/* Mixins End */
+
+.row { 
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 1800px;
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;  
+  align-items: stretch;
+  
+  & .row {
+    padding: 0;
+  }
+
+  @media (min-width: $small) {
+    max-width: $small;
+  }
+
+  @media (min-width: $medium) {
+    max-width: $medium;
+  }
+
+  @media (min-width: $large) {
+    max-width: $large;
+  }
+
+  @media (min-width: $giant) {
+    max-width: $giant;
+  }
+}
+
+.col{
+    box-sizing: border-box;
+    padding: 1rem;
+    float: left;
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+
+    //extra styles für dieses projekt
+    & .col{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding:1rem;
+    }
+
+  }
+
+  
+  
+  @each $breakpoint, $value in $bp{
+
+    @for $i from 1 through 12 {
+      .#{$breakpoint}-#{$i} { 
+        @media  (min-width: $value) {
+          width: calc(100% * (#{$i} / 12));
+          //alternative zu width
+          flex-basis: calc(100% * (#{$i} / 12));
+        }
+      }
+    }
+  }
+  
+
+

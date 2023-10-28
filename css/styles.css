@@ -1,0 +1,886 @@
+@charset "UTF-8";
+/* Mixins for breakpoints */
+/* Mixins End */
+.row {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 1800px;
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.row .row {
+  padding: 0;
+}
+@media (min-width: 540px) {
+  .row {
+    max-width: "540px";
+  }
+}
+@media (min-width: 768px) {
+  .row {
+    max-width: "768px";
+  }
+}
+@media (min-width: 992px) {
+  .row {
+    max-width: "992px";
+  }
+}
+@media (min-width: 1200px) {
+  .row {
+    max-width: "1200px";
+  }
+}
+
+.col {
+  box-sizing: border-box;
+  padding: 1rem;
+  float: left;
+  max-width: 100%;
+  width: 100%;
+  flex: 0 0 auto;
+  flex-basis: 100%;
+}
+.col .col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+@media (min-width: 540px) {
+  .small-1 {
+    width: calc(100% * (1 / 12));
+    flex-basis: calc(100% * (1 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-2 {
+    width: calc(100% * (2 / 12));
+    flex-basis: calc(100% * (2 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-3 {
+    width: calc(100% * (3 / 12));
+    flex-basis: calc(100% * (3 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-4 {
+    width: calc(100% * (4 / 12));
+    flex-basis: calc(100% * (4 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-5 {
+    width: calc(100% * (5 / 12));
+    flex-basis: calc(100% * (5 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-6 {
+    width: calc(100% * (6 / 12));
+    flex-basis: calc(100% * (6 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-7 {
+    width: calc(100% * (7 / 12));
+    flex-basis: calc(100% * (7 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-8 {
+    width: calc(100% * (8 / 12));
+    flex-basis: calc(100% * (8 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-9 {
+    width: calc(100% * (9 / 12));
+    flex-basis: calc(100% * (9 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-10 {
+    width: calc(100% * (10 / 12));
+    flex-basis: calc(100% * (10 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-11 {
+    width: calc(100% * (11 / 12));
+    flex-basis: calc(100% * (11 / 12));
+  }
+}
+
+@media (min-width: 540px) {
+  .small-12 {
+    width: calc(100% * (12 / 12));
+    flex-basis: calc(100% * (12 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-1 {
+    width: calc(100% * (1 / 12));
+    flex-basis: calc(100% * (1 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-2 {
+    width: calc(100% * (2 / 12));
+    flex-basis: calc(100% * (2 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-3 {
+    width: calc(100% * (3 / 12));
+    flex-basis: calc(100% * (3 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-4 {
+    width: calc(100% * (4 / 12));
+    flex-basis: calc(100% * (4 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-5 {
+    width: calc(100% * (5 / 12));
+    flex-basis: calc(100% * (5 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-6 {
+    width: calc(100% * (6 / 12));
+    flex-basis: calc(100% * (6 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-7 {
+    width: calc(100% * (7 / 12));
+    flex-basis: calc(100% * (7 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-8 {
+    width: calc(100% * (8 / 12));
+    flex-basis: calc(100% * (8 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-9 {
+    width: calc(100% * (9 / 12));
+    flex-basis: calc(100% * (9 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-10 {
+    width: calc(100% * (10 / 12));
+    flex-basis: calc(100% * (10 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-11 {
+    width: calc(100% * (11 / 12));
+    flex-basis: calc(100% * (11 / 12));
+  }
+}
+
+@media (min-width: 768px) {
+  .medium-12 {
+    width: calc(100% * (12 / 12));
+    flex-basis: calc(100% * (12 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-1 {
+    width: calc(100% * (1 / 12));
+    flex-basis: calc(100% * (1 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-2 {
+    width: calc(100% * (2 / 12));
+    flex-basis: calc(100% * (2 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-3 {
+    width: calc(100% * (3 / 12));
+    flex-basis: calc(100% * (3 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-4 {
+    width: calc(100% * (4 / 12));
+    flex-basis: calc(100% * (4 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-5 {
+    width: calc(100% * (5 / 12));
+    flex-basis: calc(100% * (5 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-6 {
+    width: calc(100% * (6 / 12));
+    flex-basis: calc(100% * (6 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-7 {
+    width: calc(100% * (7 / 12));
+    flex-basis: calc(100% * (7 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-8 {
+    width: calc(100% * (8 / 12));
+    flex-basis: calc(100% * (8 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-9 {
+    width: calc(100% * (9 / 12));
+    flex-basis: calc(100% * (9 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-10 {
+    width: calc(100% * (10 / 12));
+    flex-basis: calc(100% * (10 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-11 {
+    width: calc(100% * (11 / 12));
+    flex-basis: calc(100% * (11 / 12));
+  }
+}
+
+@media (min-width: 992px) {
+  .large-12 {
+    width: calc(100% * (12 / 12));
+    flex-basis: calc(100% * (12 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-1 {
+    width: calc(100% * (1 / 12));
+    flex-basis: calc(100% * (1 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-2 {
+    width: calc(100% * (2 / 12));
+    flex-basis: calc(100% * (2 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-3 {
+    width: calc(100% * (3 / 12));
+    flex-basis: calc(100% * (3 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-4 {
+    width: calc(100% * (4 / 12));
+    flex-basis: calc(100% * (4 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-5 {
+    width: calc(100% * (5 / 12));
+    flex-basis: calc(100% * (5 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-6 {
+    width: calc(100% * (6 / 12));
+    flex-basis: calc(100% * (6 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-7 {
+    width: calc(100% * (7 / 12));
+    flex-basis: calc(100% * (7 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-8 {
+    width: calc(100% * (8 / 12));
+    flex-basis: calc(100% * (8 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-9 {
+    width: calc(100% * (9 / 12));
+    flex-basis: calc(100% * (9 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-10 {
+    width: calc(100% * (10 / 12));
+    flex-basis: calc(100% * (10 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-11 {
+    width: calc(100% * (11 / 12));
+    flex-basis: calc(100% * (11 / 12));
+  }
+}
+
+@media (min-width: 1200px) {
+  .giant-12 {
+    width: calc(100% * (12 / 12));
+    flex-basis: calc(100% * (12 / 12));
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("fonts/Lato-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  /*Font Ordner in css ordner*/
+  font-family: "lato";
+  src: url("fonts/Lato-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "damion";
+  src: url("fonts/Damion-Regular.ttf");
+  font-weight: 400;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #fcfcfc;
+  /*font-family in body*/
+  font-family: "lato", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+#pageWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*************Reusable*********/
+/******************************/
+dt, dd {
+  background: #bababa;
+  color: #1e1e1e;
+}
+
+dt {
+  padding: 1rem 1rem 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+dd {
+  margin-bottom: 0.66rem;
+  padding: 0rem 1rem 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+hr {
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin: 4rem auto;
+}
+
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0.7rem auto;
+  background: rgb(170, 111, 0);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 3rem 0;
+  background: #dce9ee;
+  color: #1e1e1e;
+}
+
+h1 {
+  color: #227895;
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/********** Header Section *******/
+/*********************************/
+header {
+  position: relative;
+  width: 100%;
+  /*viewport height*/
+  min-height: 100vh;
+  /****************************************
+          Background einstellungen
+      background: url("../Img/hintergrund.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; 
+    ******************************************/
+  /*Hintergrundbild in css einbinden  */
+  min-height: 100vh;
+  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)), url("../Img/hintergrund.jpeg") no-repeat center center/cover;
+  /* Hier bitte mit scss die navigation neu stylen und später die alten stzles entfernen */
+  /* Denk bitte dran das die navigation verlinkungen haben sollte und auch intern auf verschiedene elemente verlinkt sind */
+  /* ********************************************************************************** */
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 70vh;
+  }
+}
+body:not(.index) header {
+  min-height: 40vh;
+  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)), url("../Img/team2.jpeg") no-repeat center center/cover;
+}
+@media (min-width: 768px) {
+  body:not(.index) header {
+    min-height: 50vh;
+  }
+}
+body:not(.index) header .claim {
+  display: none;
+}
+header .topBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: rgb(30, 144, 255);
+  padding: 1rem;
+}
+header .topBar .logo {
+  min-width: 50px;
+  max-width: 15%;
+  width: 100%;
+  height: auto;
+}
+header .topBar .logo a {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Damion", Courier, monospace;
+}
+header .topBar .logo img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  header .topBar nav ul {
+    list-style-type: none;
+    background-color: #0e4bff;
+    margin-left: 25px;
+    border-radius: 10px;
+  }
+  header .topBar nav ul li {
+    display: inline-block;
+  }
+  header .topBar nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #dee8ed;
+    text-decoration: none;
+  }
+  header .topBar nav ul li a:hover {
+    background: #1a1a1a;
+    border-radius: 10px;
+  }
+}
+header .claim {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  border-radius: 20px;
+  /*transform elemnte mittig plazieren*/
+  transform: translate(-50%, -50%);
+  animation-name: slideIn;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+header .claim .row {
+  justify-content: center;
+}
+header .claim .row .box {
+  border-radius: 5px;
+  background: rgba(255, 255, 250, 0.6);
+}
+header .claim .row .box h1 {
+  animation-name: scale;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  /*??? --> du hattest glaube ich ne frage hier, das transform origin sagt wo die animation ihren start punkt hat*/
+  transform-origin: bottom left;
+}
+
+/********* Main Section ***********+/
+/**********************************/
+main {
+  background: #dee8ed;
+}
+main img {
+  width: 100%;
+  height: auto;
+}
+main section.leistungen h1 {
+  text-align: center;
+}
+main section.leistungen .box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  background: #f7f7f7;
+  border-radius: 5px;
+  align-items: flex-start;
+}
+main section.leistungen .box img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+main .googleMaps {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  main .googleMaps {
+    width: 60%;
+  }
+}
+main .googleMaps iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+section.blogposts {
+  /* HIER BITTE DIE 2 SECTION STYLEN  */
+  width: 100%;
+  border-radius: 5px;
+}
+section.blogposts article {
+  background: #f7f7f7;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+section.blogposts article img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+section.blogposts aside {
+  background: #f7f7f7;
+  padding: 1rem 1.5rem;
+}
+section.blogposts aside img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+/********* footer Section ***********+/
+  /**********************************/
+/* FOOTER AUCH STZLEN UND EINER FOOTER NAVIGATION GEBEN  */
+footer {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+  background-color: #1e90ff;
+}
+footer .contentfooter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  footer .contentfooter {
+    max-width: 80%;
+  }
+}
+footer .contentfooter .logo {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer .contentfooter .logo {
+    width: 40%;
+  }
+}
+footer .contentfooter .logo .brand img {
+  width: auto;
+  height: 70px;
+}
+footer .contentfooter .logo .brand h3 {
+  color: #fff;
+}
+footer .contentfooter .logo .footernav {
+  margin-top: 3rem;
+}
+footer .contentfooter .logo .footernav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+footer .contentfooter .logo .footernav li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+footer .contentfooter .logo .footernav li a:hover {
+  color: rgba(255, 156, 75, 0.618);
+}
+footer .contentfooter .googleMaps {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  footer .contentfooter .googleMaps {
+    width: 60%;
+  }
+}
+footer .contentfooter .googleMaps iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+/* ****************** Animationen ********************************/
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/*claim wird seitlich eingeschoben*/
+@keyframes slideIn {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  100% {
+    left: 50%;
+    opacity: 1;
+  }
+}
+.mobileNav {
+  max-height: 0;
+  display: none;
+  transition: all 0.5 ease-out;
+  transition-property: max-height, display;
+}
+
+.hamb {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 4%;
+  padding: 40px 20px;
+}
+.hamb .hamb-line {
+  background-color: #fff;
+  display: block;
+  width: 24px;
+  height: 2px;
+  position: relative;
+  z-index: 999;
+}
+.hamb .hamb-line::before, .hamb .hamb-line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2 ease-out;
+}
+.hamb .hamb-line::before {
+  top: 5px;
+}
+.hamb .hamb-line::after {
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+}
+.side-menu:checked ~ nav {
+  max-height: 100%;
+  display: block;
+}
+.side-menu:checked ~ nav ul {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.side-menu:checked ~ nav ul li {
+  display: block;
+  list-style: none;
+}
+.side-menu:checked ~ nav ul li a {
+  color: #fff;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(405deg);
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .side-menu, .hamb {
+    display: none;
+  }
+  .mobileNav {
+    max-height: 100%;
+    display: block;
+  }
+}
+fieldset {
+  width: 100%;
+  border: none;
+}
+fieldset legend {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+fieldset input, fieldset select, fieldset textarea {
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 33px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+fieldset input:focus, fieldset select:focus, fieldset textarea:focus {
+  border: 2px solid orange;
+  outline-color: orange;
+}
+fieldset textarea {
+  width: 100%;
+}
+fieldset label {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+fieldset label, fieldset input, fieldset select {
+  width: 100%;
+  display: block;
+}/*# sourceMappingURL=styles.css.map */

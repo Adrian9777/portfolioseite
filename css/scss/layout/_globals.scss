@@ -1,0 +1,115 @@
+$light: #fff;
+$dark: #1e1e1e;
+$primary: #227895;
+$baseGap: 18px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("fonts/Lato-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    /*Font Ordner in css ordner*/
+    font-family: "lato";
+    src: url("fonts/Lato-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+  font-family: "damion";
+  src: url("fonts/Damion-Regular.ttf");
+  font-weight: 400;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    /*font-family in body*/
+    font-family: "lato", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.6rem;
+    //word-break:break-all;
+}
+
+a {
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 400;
+}
+  
+#pageWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+/*************Reusable*********/
+/******************************/
+
+
+dt, dd {
+  background: #bababa;
+  color: $dark;
+}
+
+dt {
+  padding: 1rem 1rem 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+dd {
+  margin-bottom: .66rem;
+  padding: 0rem 1rem 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+hr {
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin: 4rem auto;
+}
+
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  margin: .7rem auto;
+  background: rgb(170, 111, 0);
+  color: $light;
+  text-align: center;
+  width: 100%;
+}
+
+section {
+  margin: 2rem auto;
+    padding: 3rem 0;
+    background: #dce9ee;
+    color: $dark;
+}
+  
+
+h1{
+  color: $primary;
+  font-size: 2.5rem; 
+  line-height: 4rem;
+
+  @include bp-medium{
+    font-size: 3rem; 
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
