@@ -17,8 +17,8 @@ header {
 
   /*Hintergrundbild in css einbinden  */
   min-height: 100vh;
-  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)),
-    url("../Img/hintergrund.jpeg") no-repeat center center/cover;
+  background: linear-gradient($primary, rgba($primary, 0.4)),           
+    url("../Img/hero.jpg") no-repeat center center/cover;
 
   @include bp-medium {
     min-height: 70vh;
@@ -27,8 +27,8 @@ header {
   // alle Seiten ausser Index
   body:not(.index) & {
     min-height: 40vh;
-    background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)),
-      url("../Img/team2.jpeg") no-repeat center center/cover;
+    background: linear-gradient($primary, rgba($primary, 0.4)),
+      url("../Img/hero.jpg") no-repeat center center/cover;
 
     @include bp-medium {
       min-height: 50vh;
@@ -51,20 +51,21 @@ header {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    background: rgb(30, 144, 255);
+    justify-content: space-between;
+    background: $primary;
     padding: 1rem;
+    box-shadow: 0px 15px 30px -15px rgba($light,0.1);
 
     .logo {
       min-width: 50px;
-      max-width: 15%;
+      max-width: 25%;
       width: 100%;
       height: auto;
 
       a {
         font-size: 2.5rem;
         color: white;
-        font-family: 'Damion', Courier, monospace;
+        font-family: 'gruppo', Courier, monospace;
       }
 
       img {
@@ -76,8 +77,7 @@ header {
     nav {
       @include bp-medium {
         ul {
-          list-style-type: none;
-          background-color: #0e4bff;
+          list-style-type: none;      
           margin-left: 25px;
           border-radius: 10px;
   
@@ -86,16 +86,21 @@ header {
             
   
             a {
+              font-size: .9rem;
+              font-weight: 600;
+              letter-spacing: 2px;
+              text-transform: uppercase;
               display: block;
-              padding: 20px;
+              padding: 10px 15px 5px 15px;
               color: #dee8ed;
               text-decoration: none;
+              border-bottom: 2px solid transparent;
+              transition: .4s all ease-in-out;
+              &:hover {
+                border-bottom: 2px solid $secundary;
+              } 
             }
   
-            a:hover {
-              background: #1a1a1a;
-              border-radius: 10px;
-            }
           }
         }
       }
@@ -162,6 +167,9 @@ main {
       background: #f7f7f7;
       border-radius: 5px;
       align-items: flex-start;
+      p {
+        color: $dark;
+      }
 
       img {
         object-fit: contain;
@@ -169,8 +177,6 @@ main {
       }
     }
   }
-
-  background: #dee8ed;
 
   .googleMaps {
     width: 100%;
@@ -232,7 +238,7 @@ footer {
   width: 100%;
   margin-top: 15px;
   height: auto;
-  background-color: #1e90ff;
+  background-color: rgba($primary, .95);
 
   .contentfooter {
     width: 100%;

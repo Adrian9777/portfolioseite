@@ -56,337 +56,337 @@
 
 @media (min-width: 540px) {
   .small-1 {
-    width: calc(100% * (1 / 12));
-    flex-basis: calc(100% * (1 / 12));
+    width: calc(100% * 1 / 12);
+    flex-basis: calc(100% * 1 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-2 {
-    width: calc(100% * (2 / 12));
-    flex-basis: calc(100% * (2 / 12));
+    width: calc(100% * 2 / 12);
+    flex-basis: calc(100% * 2 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-3 {
-    width: calc(100% * (3 / 12));
-    flex-basis: calc(100% * (3 / 12));
+    width: calc(100% * 3 / 12);
+    flex-basis: calc(100% * 3 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-4 {
-    width: calc(100% * (4 / 12));
-    flex-basis: calc(100% * (4 / 12));
+    width: calc(100% * 4 / 12);
+    flex-basis: calc(100% * 4 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-5 {
-    width: calc(100% * (5 / 12));
-    flex-basis: calc(100% * (5 / 12));
+    width: calc(100% * 5 / 12);
+    flex-basis: calc(100% * 5 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-6 {
-    width: calc(100% * (6 / 12));
-    flex-basis: calc(100% * (6 / 12));
+    width: calc(100% * 6 / 12);
+    flex-basis: calc(100% * 6 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-7 {
-    width: calc(100% * (7 / 12));
-    flex-basis: calc(100% * (7 / 12));
+    width: calc(100% * 7 / 12);
+    flex-basis: calc(100% * 7 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-8 {
-    width: calc(100% * (8 / 12));
-    flex-basis: calc(100% * (8 / 12));
+    width: calc(100% * 8 / 12);
+    flex-basis: calc(100% * 8 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-9 {
-    width: calc(100% * (9 / 12));
-    flex-basis: calc(100% * (9 / 12));
+    width: calc(100% * 9 / 12);
+    flex-basis: calc(100% * 9 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-10 {
-    width: calc(100% * (10 / 12));
-    flex-basis: calc(100% * (10 / 12));
+    width: calc(100% * 10 / 12);
+    flex-basis: calc(100% * 10 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-11 {
-    width: calc(100% * (11 / 12));
-    flex-basis: calc(100% * (11 / 12));
+    width: calc(100% * 11 / 12);
+    flex-basis: calc(100% * 11 / 12);
   }
 }
 
 @media (min-width: 540px) {
   .small-12 {
-    width: calc(100% * (12 / 12));
-    flex-basis: calc(100% * (12 / 12));
+    width: calc(100% * 12 / 12);
+    flex-basis: calc(100% * 12 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-1 {
-    width: calc(100% * (1 / 12));
-    flex-basis: calc(100% * (1 / 12));
+    width: calc(100% * 1 / 12);
+    flex-basis: calc(100% * 1 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-2 {
-    width: calc(100% * (2 / 12));
-    flex-basis: calc(100% * (2 / 12));
+    width: calc(100% * 2 / 12);
+    flex-basis: calc(100% * 2 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-3 {
-    width: calc(100% * (3 / 12));
-    flex-basis: calc(100% * (3 / 12));
+    width: calc(100% * 3 / 12);
+    flex-basis: calc(100% * 3 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-4 {
-    width: calc(100% * (4 / 12));
-    flex-basis: calc(100% * (4 / 12));
+    width: calc(100% * 4 / 12);
+    flex-basis: calc(100% * 4 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-5 {
-    width: calc(100% * (5 / 12));
-    flex-basis: calc(100% * (5 / 12));
+    width: calc(100% * 5 / 12);
+    flex-basis: calc(100% * 5 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-6 {
-    width: calc(100% * (6 / 12));
-    flex-basis: calc(100% * (6 / 12));
+    width: calc(100% * 6 / 12);
+    flex-basis: calc(100% * 6 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-7 {
-    width: calc(100% * (7 / 12));
-    flex-basis: calc(100% * (7 / 12));
+    width: calc(100% * 7 / 12);
+    flex-basis: calc(100% * 7 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-8 {
-    width: calc(100% * (8 / 12));
-    flex-basis: calc(100% * (8 / 12));
+    width: calc(100% * 8 / 12);
+    flex-basis: calc(100% * 8 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-9 {
-    width: calc(100% * (9 / 12));
-    flex-basis: calc(100% * (9 / 12));
+    width: calc(100% * 9 / 12);
+    flex-basis: calc(100% * 9 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-10 {
-    width: calc(100% * (10 / 12));
-    flex-basis: calc(100% * (10 / 12));
+    width: calc(100% * 10 / 12);
+    flex-basis: calc(100% * 10 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-11 {
-    width: calc(100% * (11 / 12));
-    flex-basis: calc(100% * (11 / 12));
+    width: calc(100% * 11 / 12);
+    flex-basis: calc(100% * 11 / 12);
   }
 }
 
 @media (min-width: 768px) {
   .medium-12 {
-    width: calc(100% * (12 / 12));
-    flex-basis: calc(100% * (12 / 12));
+    width: calc(100% * 12 / 12);
+    flex-basis: calc(100% * 12 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-1 {
-    width: calc(100% * (1 / 12));
-    flex-basis: calc(100% * (1 / 12));
+    width: calc(100% * 1 / 12);
+    flex-basis: calc(100% * 1 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-2 {
-    width: calc(100% * (2 / 12));
-    flex-basis: calc(100% * (2 / 12));
+    width: calc(100% * 2 / 12);
+    flex-basis: calc(100% * 2 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-3 {
-    width: calc(100% * (3 / 12));
-    flex-basis: calc(100% * (3 / 12));
+    width: calc(100% * 3 / 12);
+    flex-basis: calc(100% * 3 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-4 {
-    width: calc(100% * (4 / 12));
-    flex-basis: calc(100% * (4 / 12));
+    width: calc(100% * 4 / 12);
+    flex-basis: calc(100% * 4 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-5 {
-    width: calc(100% * (5 / 12));
-    flex-basis: calc(100% * (5 / 12));
+    width: calc(100% * 5 / 12);
+    flex-basis: calc(100% * 5 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-6 {
-    width: calc(100% * (6 / 12));
-    flex-basis: calc(100% * (6 / 12));
+    width: calc(100% * 6 / 12);
+    flex-basis: calc(100% * 6 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-7 {
-    width: calc(100% * (7 / 12));
-    flex-basis: calc(100% * (7 / 12));
+    width: calc(100% * 7 / 12);
+    flex-basis: calc(100% * 7 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-8 {
-    width: calc(100% * (8 / 12));
-    flex-basis: calc(100% * (8 / 12));
+    width: calc(100% * 8 / 12);
+    flex-basis: calc(100% * 8 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-9 {
-    width: calc(100% * (9 / 12));
-    flex-basis: calc(100% * (9 / 12));
+    width: calc(100% * 9 / 12);
+    flex-basis: calc(100% * 9 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-10 {
-    width: calc(100% * (10 / 12));
-    flex-basis: calc(100% * (10 / 12));
+    width: calc(100% * 10 / 12);
+    flex-basis: calc(100% * 10 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-11 {
-    width: calc(100% * (11 / 12));
-    flex-basis: calc(100% * (11 / 12));
+    width: calc(100% * 11 / 12);
+    flex-basis: calc(100% * 11 / 12);
   }
 }
 
 @media (min-width: 992px) {
   .large-12 {
-    width: calc(100% * (12 / 12));
-    flex-basis: calc(100% * (12 / 12));
+    width: calc(100% * 12 / 12);
+    flex-basis: calc(100% * 12 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-1 {
-    width: calc(100% * (1 / 12));
-    flex-basis: calc(100% * (1 / 12));
+    width: calc(100% * 1 / 12);
+    flex-basis: calc(100% * 1 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-2 {
-    width: calc(100% * (2 / 12));
-    flex-basis: calc(100% * (2 / 12));
+    width: calc(100% * 2 / 12);
+    flex-basis: calc(100% * 2 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-3 {
-    width: calc(100% * (3 / 12));
-    flex-basis: calc(100% * (3 / 12));
+    width: calc(100% * 3 / 12);
+    flex-basis: calc(100% * 3 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-4 {
-    width: calc(100% * (4 / 12));
-    flex-basis: calc(100% * (4 / 12));
+    width: calc(100% * 4 / 12);
+    flex-basis: calc(100% * 4 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-5 {
-    width: calc(100% * (5 / 12));
-    flex-basis: calc(100% * (5 / 12));
+    width: calc(100% * 5 / 12);
+    flex-basis: calc(100% * 5 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-6 {
-    width: calc(100% * (6 / 12));
-    flex-basis: calc(100% * (6 / 12));
+    width: calc(100% * 6 / 12);
+    flex-basis: calc(100% * 6 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-7 {
-    width: calc(100% * (7 / 12));
-    flex-basis: calc(100% * (7 / 12));
+    width: calc(100% * 7 / 12);
+    flex-basis: calc(100% * 7 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-8 {
-    width: calc(100% * (8 / 12));
-    flex-basis: calc(100% * (8 / 12));
+    width: calc(100% * 8 / 12);
+    flex-basis: calc(100% * 8 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-9 {
-    width: calc(100% * (9 / 12));
-    flex-basis: calc(100% * (9 / 12));
+    width: calc(100% * 9 / 12);
+    flex-basis: calc(100% * 9 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-10 {
-    width: calc(100% * (10 / 12));
-    flex-basis: calc(100% * (10 / 12));
+    width: calc(100% * 10 / 12);
+    flex-basis: calc(100% * 10 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-11 {
-    width: calc(100% * (11 / 12));
-    flex-basis: calc(100% * (11 / 12));
+    width: calc(100% * 11 / 12);
+    flex-basis: calc(100% * 11 / 12);
   }
 }
 
 @media (min-width: 1200px) {
   .giant-12 {
-    width: calc(100% * (12 / 12));
-    flex-basis: calc(100% * (12 / 12));
+    width: calc(100% * 12 / 12);
+    flex-basis: calc(100% * 12 / 12);
   }
 }
 
@@ -408,23 +408,29 @@
   font-weight: 800;
 }
 @font-face {
-  font-family: "damion";
-  src: url("fonts/Damion-Regular.ttf");
+  font-family: "gruppo";
+  src: url("fonts/Gruppo-Regular.ttf");
   font-weight: 400;
 }
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
-  background-color: #fcfcfc;
+  background-color: rgb(14, 14, 30);
   /*font-family in body*/
+  font-size: 16px;
   font-family: "lato", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  line-height: 1.6rem;
+  line-height: 1.2rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 #pageWrap {
@@ -437,7 +443,8 @@ a {
 
 /*************Reusable*********/
 /******************************/
-dt, dd {
+dt,
+dd {
   background: #bababa;
   color: #1e1e1e;
 }
@@ -474,18 +481,17 @@ hr {
 section {
   margin: 2rem auto;
   padding: 3rem 0;
-  background: #dce9ee;
-  color: #1e1e1e;
+  background: rgb(14, 14, 30);
+  color: #fff;
 }
 
 h1 {
-  color: #227895;
-  font-size: 2.5rem;
-  line-height: 4rem;
+  color: #fff;
+  font-size: 1.5rem;
 }
 @media (min-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -510,7 +516,7 @@ header {
     ******************************************/
   /*Hintergrundbild in css einbinden  */
   min-height: 100vh;
-  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)), url("../Img/hintergrund.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgb(14, 14, 30), rgba(14, 14, 30, 0.4)), url("../Img/hero.jpg") no-repeat center center/cover;
   /* Hier bitte mit scss die navigation neu stylen und später die alten stzles entfernen */
   /* Denk bitte dran das die navigation verlinkungen haben sollte und auch intern auf verschiedene elemente verlinkt sind */
   /* ********************************************************************************** */
@@ -522,7 +528,7 @@ header {
 }
 body:not(.index) header {
   min-height: 40vh;
-  background: linear-gradient(rgba(30, 144, 255, 0.4), rgba(91, 116, 141, 0.4)), url("../Img/team2.jpeg") no-repeat center center/cover;
+  background: linear-gradient(rgb(14, 14, 30), rgba(14, 14, 30, 0.4)), url("../Img/hero.jpg") no-repeat center center/cover;
 }
 @media (min-width: 768px) {
   body:not(.index) header {
@@ -537,20 +543,21 @@ header .topBar {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  background: rgb(30, 144, 255);
+  justify-content: space-between;
+  background: rgb(14, 14, 30);
   padding: 1rem;
+  box-shadow: 0px 15px 30px -15px rgba(255, 255, 255, 0.1);
 }
 header .topBar .logo {
   min-width: 50px;
-  max-width: 15%;
+  max-width: 25%;
   width: 100%;
   height: auto;
 }
 header .topBar .logo a {
   font-size: 2.5rem;
   color: white;
-  font-family: "Damion", Courier, monospace;
+  font-family: "gruppo", Courier, monospace;
 }
 header .topBar .logo img {
   width: 100%;
@@ -559,7 +566,6 @@ header .topBar .logo img {
 @media (min-width: 768px) {
   header .topBar nav ul {
     list-style-type: none;
-    background-color: #0e4bff;
     margin-left: 25px;
     border-radius: 10px;
   }
@@ -567,14 +573,19 @@ header .topBar .logo img {
     display: inline-block;
   }
   header .topBar nav ul li a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     display: block;
-    padding: 20px;
+    padding: 10px 15px 5px 15px;
     color: #dee8ed;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s all ease-in-out;
   }
   header .topBar nav ul li a:hover {
-    background: #1a1a1a;
-    border-radius: 10px;
+    border-bottom: 2px solid rgb(255, 86, 15);
   }
 }
 header .claim {
@@ -607,9 +618,6 @@ header .claim .row .box h1 {
 
 /********* Main Section ***********+/
 /**********************************/
-main {
-  background: #dee8ed;
-}
 main img {
   width: 100%;
   height: auto;
@@ -627,11 +635,12 @@ main section.leistungen .box {
   border-radius: 5px;
   align-items: flex-start;
 }
+main section.leistungen .box p {
+  color: #1e1e1e;
+}
 main section.leistungen .box img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: contain;
+  object-position: center;
 }
 main .googleMaps {
   width: 100%;
@@ -659,10 +668,8 @@ section.blogposts article {
 }
 section.blogposts article img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: contain;
+  object-position: center;
 }
 section.blogposts aside {
   background: #f7f7f7;
@@ -681,7 +688,7 @@ footer {
   width: 100%;
   margin-top: 15px;
   height: auto;
-  background-color: #1e90ff;
+  background-color: rgba(14, 14, 30, 0.95);
 }
 footer .contentfooter {
   width: 100%;
